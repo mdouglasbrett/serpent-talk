@@ -6,4 +6,5 @@
        (csk/->snake_case input)))
 
 (defn -main [& args]
-  println (serpent-talk (first args)))
+  (println
+  (serpent-talk (first args))))
